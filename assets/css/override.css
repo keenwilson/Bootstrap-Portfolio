@@ -1,0 +1,138 @@
+body {
+    background-image: url("../images/ricepaper2.png");
+    background-repeat: repeat;
+    padding: 0px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Animation */
+
+@keyframes example {
+    0%   {background-color: #4aaaa5; left:0px;}
+    50%  {background-color: #76d4d0; left:200px;}
+    100% {background-color: #4ce9e1; left:0px;}
+}
+
+@keyframes example2 {
+    0%   {color: #4aaaa5;}
+    50%  {color: #76d4d0;}
+    100% {color: #4ce9e1;}
+}
+
+/* general style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    color: #888;
+    font-weight: 400;
+    animation-name: example2;
+    animation-duration: 2s;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    color: #999;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #999;
+    font-size: 1.414rem
+}
+
+p {
+    display: inline;
+}
+/*Navigation and Links*/
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 0;
+    padding: 1rem 2rem;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+a, 
+a.nav-link {
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+a.nav-link a:hover,
+a.navbar-brand a:hover{
+    color: #5e7f7e;
+}
+
+.bg-brandgreen {
+    background-color: #4aaaa5;
+}
+
+.text-brandgreen {
+    color: #4aaaa5;
+}
+
+.bg-brandwhite {
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+  
+.social:last-child {
+    margin-right: 0;
+}
+
+.social:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* Footer */
+.copyright {
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    margin-top: 3rem;
+}
+/*
+img.card-img-top {
+    height: 225px; 
+    width: 100%; 
+    display: block;
+}
+*/
